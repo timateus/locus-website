@@ -14,22 +14,16 @@ theme = "hugo-elate-theme"
   email = ""
   # Navigation
   [params.navigation]
+    login = "Partner Login"
     brand = "LOCUS"
     home = "Home"
     work = "Use cases"
     testimonials = "Technology"
     services = "Services"
-    about = "About"
     contact = "Contact"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
-    
-    # prepended links
-    [[menu.prepend]]
-    url = "login/"
-    name = "Partner Login"
-    weight = 10
 
     # postpended links
     #[[menu.postpend]]
@@ -40,7 +34,8 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Actionable analytics for the physical world."
-    subtitle = 'Get your customer undersanding to the next level with an indoor positioning system capable of understanding how your customers navigate through your store, hospital, museum, airport.'
+    subtitle = 'Get your customer undersanding to the next level with an indoor positioning system capable of understanding how your customers navigate through your store, hospital, museum, airport.<br><br>Login:<a href="/login/"><br><i class="icon icon-user" href="/login/"></i></a>'
+
  
   # Intro section
   # Available icons: http://simplelineicons.com/
