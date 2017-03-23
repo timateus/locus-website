@@ -4,4 +4,4 @@ title = ""
 
 +++
 
-{{< button>}}
+{{< graph2>}}
